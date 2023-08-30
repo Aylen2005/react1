@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <div className="navbar">
+        <div className="logo">
+          <img src={logo} alt="Logo" />
+        </div>
+        <div className="search-box">
+          <input type="text" placeholder="Buscar receta..." />
+        </div>
+      </div>
+      
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <card>
+          <h1> holi como tan</h1>
+        </card>
       </header>
+      <footer className='footer'>
+        <p className="footer-copyright">© 2023 recetas. Todos los derechos reservados.</p>
+      </footer>
     </div>
   );
 }
