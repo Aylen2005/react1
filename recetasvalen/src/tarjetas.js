@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Card = (props) => {
-  const { imagenSrc, title, description, iconPath1,iconPath2,iconPath3,iconPath4, iconText1,iconText2,iconText3,iconText4} = props;
+  const {imagenSrc, title, description} = props;
 
   return (
     <div className="recipe-card">
@@ -15,24 +15,6 @@ const Card = (props) => {
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{description}</p>
         </div>
-        <div className="more-info-icons">
-        <div className="icon">
-          <img src={iconPath1}  />
-          <span>{props.iconText1}</span>
-        </div>
-        <div className="icon">
-          <img src={iconPath2}  />
-          <span>{props.iconText2}</span>
-        </div>
-        <div className="icon">
-          <img src={iconPath3}  />
-          <span>{props.iconText3}</span>
-        </div>
-        <div className="icon">
-          <img src={iconPath4} />
-          <span>{props.iconText4}</span>
-        </div>
-</div>
       </ul>
     </nav>
   </div>
@@ -40,5 +22,6 @@ const Card = (props) => {
   );
   }  
 export default Card;
+
 
 

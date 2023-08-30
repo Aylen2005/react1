@@ -1,8 +1,9 @@
 import logo from './logo.png';
 import './App.css';
+import './tarjetas.css'
 import './tarjetas.js';
 import flan from './flan.jpg';
-import { Card } from 'react-bootstrap';
+import Card from './tarjetas.js';
 
 
 
@@ -20,19 +21,21 @@ function App() {
       </div>
       
       <header className="App-header">
-        <Card
+       <Card
           imagenSrc={flan} alt='flan'
-          title="Chocotorta en simcdples pasos"
-          description="Mezcla el dulce de leche con el queso crema.Luego lo unes todo hasta que tengas una crema lisa y sin grumos.
-           A continuación, en un plato, pon el café y el agua. El café puede ser con cafeína o descafeinado, como prefieras. En caso de no gustarte, puedes poner leche para mojar las galletas.
-          La primera capa, la pondremos de galletas, que será la base de la tarta.Agarra las galletas, las vas pasando brevemente por la mezcla de café y agua y las colocas ordenadas en el fondo del molde.
-          Procura rellenar bien todos los huecos con trocitos de galletas cortadas.A continuación pon una capa de la mezcla de dulce de leche y queso crema.
-          Tienes que extender bien la capa, procurando que cubra todas las galletas.A continuación pon otra capa de galletas. Igual que antes, mojas y colocas.Y otra capa de crema.
-          Así hasta que llegues a la última capa que será de dulce de leche.
-          Una vez terminado, se lleva al refrigerador. Y listo!"
+          title='flan'
+          description='Derrite 1 taza de azúcar en una cacerola para hacer caramelo. Vierte el caramelo en un molde para flan y déjalo enfriar.
+
+          Bate 4 huevos en un tazón y agrega 2 tazas de leche. Mezcla bien.
           
-        />
-        
+          Vierte la mezcla de huevos y leche en el molde de flan con caramelo.
+          
+          Hornea el flan a 180°C en un baño de agua durante aproximadamente 1 hora, hasta que esté firme en los bordes y ligeramente tembloroso en el centro.
+          
+          Enfría el flan a temperatura ambiente y luego refrigéralo.
+          
+          Desmolda el flan volteándolo en un plato y sirve.'
+       />
       </header>
       <footer className='footer'>
         <p className="footer-copyright">© 2023 recetas. Todos los derechos reservados.</p>
