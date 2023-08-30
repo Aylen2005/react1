@@ -1,6 +1,6 @@
 
 .card-content {
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     width: 900px;
     height: 300px;
     margin: 40px;
@@ -11,6 +11,7 @@
     margin: 0 auto;
     width: 67%;
     padding: 10px;
+    padding-bottom: 5px;
   }
   
   .card-image {
@@ -26,7 +27,7 @@
   
 
   .card-info{
-    width: 50%; 
+    width: 75%; 
     padding-left: 10px; /* Agregar espacio entre la imagen y el texto */
     padding-right: 25%;
   }
@@ -38,13 +39,25 @@
   
   .card-text {
     color: #000;
-    font-size: 1.2rem;
+    font-size: 1rem;
    
   }
   
   /*iconos*/
 
-  .leche img{
-    width: 30px;
-    height: 30px;
+  .ingredientes img{
+
+    width: 15px;
+    height: 15px;
+  }
+  .ingredientes{
+    height: min-content;
+    width: min-content;
+    -ms-text-size-adjust: 15px;
+    color: #000;
+  }
+
+  .ingredientes span {
+    padding-right:40px;
+    font-size: 15px;
   }
