@@ -49,3 +49,24 @@ header {
 card{
   background-color: rgb(255, 255, 255);
 }
+
+/* Tarjeta.css */
+.tarjeta {
+  border: 1px solid #ccc;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.tarjeta img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+/* GridDeTarjetas.css */
+.grid-tarjetas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
